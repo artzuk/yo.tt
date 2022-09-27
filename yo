@@ -11,6 +11,7 @@ yo
 	.description(packageJSON.description)
 
 	// default track/untrack command
+	.option('-t, --task [taskname]', 'current task', yo.String)
 	.action(commands.track)
 
 	// edit command
